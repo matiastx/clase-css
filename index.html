@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase CSS</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1>EJERCICIOS CON CSS</h1>
+
+    <div class="absolutas seccion">
+      <h2>Unidades Absolutas</h2>
+      <div class="basicbox flex">
+        <div class="caja">100px</div>
+        <div class="caja-mediana">200px</div>
+        <div class="caja-grande">300px</div>
+      </div>
+    </div>
+
+    <div class="relativas seccion">
+      <h2>Unidades Relativas</h2>
+      <ul>
+        <li>👉 em</li>
+        <div class="basicbox">
+          <div class="caja-mediana em">Texto en em</div>
+        </div>
+        <li>👉 rem</li>
+        <div class="basicbox">
+          <div class="caja-mediana rem">Texto en rem</div>
+        </div>
+        <li>👉 % (porcentaje)</li>
+        <div class="basicbox">
+          <div class="caja-mediana">
+            <div class="porcentaje"></div>
+          </div>
+        </div>
+        <li>👉 vh (viewport height)</li>
+        <div class="basicbox">
+          <div class="caja-mediana">
+            <div class="vh">viewport height</div>
+          </div>
+        </div>
+        <li>👉 vw (viewport width)</li>
+        <div class="basicbox">
+          <div class="caja-mediana">
+            <div class="vw">viewport width</div>
+          </div>
+        </div>
+      </ul>
+    </div>
+
+    <div class="background seccion">
+      <h2>Background y Color</h2>
+      <ul>
+        <li>🎨background-color</li>
+        <div class="basicbox">
+          <div class="caja bg-color"></div>
+        </div>
+        <li>🎨background-img</li>
+        <div class="basicbox">
+          <div class="caja bg-img"></div>
+        </div>
+        <li>🎨background-repeat</li>
+        <div class="basicbox">
+          <div class="caja bg-repeat"></div>
+        </div>
+        <li>🎨background-attachment (fixed)</li>
+        <div class="basicbox">
+          <div class="caja bg-atach"></div>
+        </div>
+        <li>🎨background-position (center)</li>
+        <div class="basicbox">
+          <div class="caja bg-pos"></div>
+        </div>
+        <li>🎨background-size (cover)</li>
+        <div class="basicbox">
+          <div class="caja bg-size"></div>
+        </div>
+      </ul>
+    </div>
+
+    <div class="tipografias seccion">
+      <h2>Estilos para texto</h2>
+      <ul>
+        <li>👉 font-family (desde google fonts)</li>
+        <div class="basicbox font-fa">
+          <p>Texto con fuente 'Indie Flower'</p>
+        </div>
+        <li>👉 font-weight</li>
+        <div class="basicbox font-we">
+          <p>Texto con Bold</p>
+        </div>
+        <li>👉 font-style (normal/italic/oblique)</li>
+        <div class="basicbox font-sty">
+          <p>Texto con Italic</p>
+        </div>
+        <li>👉 font-size</li>
+        <div class="basicbox font-siz">
+          <p>Texto con size 2rem</p>
+        </div>
+        <li>👉 letter-spacing (10px)</li>
+        <div class="basicbox let-spa">
+          <p>Texto con letter spacing</p>
+        </div>
+        <li>👉 word-spacing (10px)</li>
+        <div class="basicbox wor-spa">
+          <p>Texto con word spacing</p>
+        </div>
+        <li>👉 line-height (55px)</li>
+        <div class="basicbox lin-hei">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
+            repellendus ad repellat, harum cum quas blanditiis quos enim fuga
+            deserunt voluptatem optio sint laborum ratione! Explicabo aliquam
+            libero esse nobis.
+          </p>
+        </div>
+        <li>👉 text-align (center)</li>
+        <div class="basicbox txt-ali">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Perferendis dicta hic illo ipsum modi similique voluptatibus
+            suscipit cumque unde atque provident mollitia voluptatem accusamus
+            consequatur qui quis quidem officiis, consequuntur at. Veritatis
+            quaerat consequuntur veniam beatae officia ad inventore, nemo ipsum,
+            commodi delectus natus voluptatem dolor vel incidunt, atque
+            molestias.
+          </p>
+        </div>
+        <li>👉 text-transform (uppercase/lowercase/capitalize)</li>
+        <div class="basicbox txt-tra">
+          <p>texto con text-transform</p>
+        </div>
+        <li>👉 text-decoration (underline/overline/line-throught/blink)</li>
+        <div class="basicbox txt-dec">
+          <p>Texto con text-decoration</p>
+        </div>
+      </ul>
+    </div>
+
+    <div class="Estilos-listas seccion">
+      <h2>Estilos para Listas</h2>
+      <div>
+        <ul>
+          <li>⚡list-style-type: none (más usado)</li>
+          <div class="basicbox listas">
+            <li class="style-none">Lista sin style type</li>
+          </div>
+          <li>
+            ⚡ list-style-position Posicion donde estara el marcador (ej:
+            outside)
+          </li>
+          <div class="basicbox listas">
+            <li class="li-pos-o">Lista con position outside</li>
+            <li class="li-pos-i">Lista con position inside</li>
+          </div>
+          <li>
+            ⚡list-style-image Imagen para marcar listado (ej: list-style-image:
+            url('');)
+          </li>
+          <div class="basicbox listas">
+            <li class="li-img">Lista con img para listar</li>
+            <li class="li-img">Lista con img para listar</li>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

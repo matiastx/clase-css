@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-size: 20px;
+}
+
+.seccion {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px blanchedalmond;
+  border-radius: 1rem;
+  margin: 10px;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 20px 5px;
+  background: black;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 5px;
+  background: #282828;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(29, 27, 27);
+  color: azure;
+}
+
+.basicbox {
+  background: #282828;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: fit-content;
+  margin: 1rem 0;
+}
+
+.flex {
+  display: flex;
+  gap: 40px;
+}
+
+.caja {
+  height: 100px;
+  width: 100px;
+  background-color: #6b7280;
+  text-align: center;
+  border-radius: 1rem;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.caja-mediana {
+  height: 200px;
+  width: 200px;
+  background-color: #e11d48;
+  text-align: center;
+  border-radius: 1rem;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.caja-grande {
+  height: 300px;
+  width: 300px;
+  background-color: #8c54fb;
+  text-align: center;
+  border-radius: 1rem;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.em {
+  font-size: 2em;
+}
+
+.rem {
+  font-size: 2rem;
+}
+
+.porcentaje {
+  background-color: #8c54fb;
+  height: 50%;
+  width: 50%;
+  border-radius: 1rem;
+}
+
+.vh {
+  background-color: #8c54fb;
+  height: 10vh;
+}
+
+.vw {
+  background-color: #8c54fb;
+  width: 10vw;
+}
+
+.bg-color {
+  background-color: crimson;
+}
+
+.bg-img {
+  background-image: url(./assets/img4.jpeg);
+}
+
+.bg-repeat {
+  background-image: url(./assets/miniChopper.JPG);
+  background-repeat: repeat;
+}
+
+.bg-atach {
+  background-image: url(./assets/img7.webp);
+  background-attachment: fixed;
+}
+
+.bg-pos {
+  background-image: url(./assets/img2.jpeg);
+  background-position: center;
+}
+
+.bg-size {
+  background-image: url(./assets/img2.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.tipografias {
+  font-size: 20px;
+}
+
+.font-fa p {
+  font-family: "Indie Flower";
+  font-size: 20px;
+}
+
+.font-we p {
+  font-weight: bold;
+}
+
+.font-siz p {
+  font-size: 2rem;
+}
+
+.let-spa p {
+  letter-spacing: 10px;
+}
+
+.wor-spa p {
+  word-spacing: 10px;
+}
+
+.lin-hei p {
+  line-height: 55px;
+}
+
+.txt-ali p {
+  text-align: center;
+}
+
+.txt-tra p {
+  text-transform: uppercase;
+}
+
+.txt-dec p {
+  text-decoration: underline;
+}
+
+.listas {
+  list-style: armenian;
+}
+
+.style-none {
+  list-style-type: none;
+}
+
+.li-pos-o {
+  list-style-type: circle;
+  list-style-position: outside;
+}
+
+.li-pos-i {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+.li-img {
+  list-style-image: url(./assets/miniChopper.JPG);
+  list-style-position: inside;
+}
